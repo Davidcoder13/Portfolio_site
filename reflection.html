@@ -1,61 +1,88 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Reflection | David</title>
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-  <!-- Site header with navigation (appears on every page) -->
-  <header class="site-header container">
-    <div class="logo">David</div>
-    <nav class="nav" aria-label="Main navigation">
-      <a href="index.html">Home</a>
-      <a href="about.html">About Me</a>
-      <a href="work.html">Portfolio</a>
-      <a class="active" href="reflection.html">Reflection</a>
-    </nav>
-  </header>
-
-  <main class="container">
-    <!-- Reflection intro -->
-    <section class="section" aria-labelledby="reflection-title">
-      <h2 id="reflection-title">Reflection Journal</h2>
-      <p>
-        I use this space to record what I learned in class and how I can improve. Each reflection helps me stay focused and grow my skills.
-      </p>
-    </section>
-
-    <!-- Reflection entries -->
-    <section class="section" aria-label="Reflection entries">
-      <div class="card reflection-list">
-        <div class="reflection-item">
-          <time datetime="2024-09-12">September 12, 2024</time>
-          <p>
-            I learned how to organize survey responses into categories. Next time, I want to create clearer charts so my data is easier to understand.
-          </p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Portfolio | Reflection</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-badge">CS</span>
+          <span>David Lunshof</span>
         </div>
-        <div class="reflection-item">
-          <time datetime="2024-10-03">October 3, 2024</time>
-          <p>
-            Our business plan task taught me how important budgeting is. I improved by double-checking costs and asking for feedback from classmates.
-          </p>
-        </div>
-        <div class="reflection-item">
-          <time datetime="2024-11-15">November 15, 2024</time>
-          <p>
-            I practiced presenting my ideas with confidence. I improved by using cue cards and making my slides more visual.
-          </p>
-        </div>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Me</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a class="active" href="reflection.html">Reflection</a>
+        </nav>
       </div>
-    </section>
-  </main>
+    </header>
 
-  <!-- Footer -->
-  <footer class="site-footer container">
-    <p>Student Portfolio • BEM1O</p>
-  </footer>
-</body>
+    <main class="container">
+      <section class="hero">
+        <div>
+          <div class="badge">Reflection</div>
+          <h1 class="hero-title">Learning Log</h1>
+          <p class="hero-subtitle">
+            Reflection helps me track growth, notice patterns, and improve how I
+            solve problems. I add a new entry after major assignments or units.
+          </p>
+        </div>
+        <div class="hero-card">
+          <h2>Skills I Track</h2>
+          <p>
+            Teamwork, communication, technical thinking, and problem-solving are core
+            skills in BEM1O. I look for evidence of progress in each reflection.
+          </p>
+          <div class="code-block">
+            reflection = learn + test + improve
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Reflection Entries</h2>
+        <p class="section-subtitle">
+          Use this layout after major milestones. Copy and update the template for
+          each new assignment.
+        </p>
+
+        <div class="timeline">
+          <article class="timeline-item">
+            <h4>Entry 1: Multi-Page Website</h4>
+            <p><strong>What did I learn?</strong> I learned how to keep navigation consistent and how CSS
+              can create a clean visual system.</p>
+            <p><strong>What went well?</strong> Planning the layout first made the build process smoother.</p>
+            <p><strong>What was challenging?</strong> Debugging spacing issues took time, but I solved it by
+              testing one section at a time.</p>
+          </article>
+
+          <article class="timeline-item">
+            <h4>Entry 2: Research Summary</h4>
+            <p><strong>What did I learn?</strong> I practiced turning complex information into clear points.</p>
+            <p><strong>What went well?</strong> Organizing sources and staying focused helped me finish early.</p>
+            <p><strong>What was challenging?</strong> I had to revise my draft to keep it short and readable.</p>
+          </article>
+
+          <article class="timeline-item">
+            <h4>Entry 3: Placeholder for Future Reflection</h4>
+            <p><strong>What did I learn?</strong> [Add notes about new skills or ideas.]</p>
+            <p><strong>What went well?</strong> [Add what worked or improved.]</p>
+            <p><strong>What was challenging?</strong> [Add the biggest obstacle and how you solved it.]</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">David Lunshof | BEM1O Student Portfolio</div>
+    </footer>
+  </body>
 </html>
-

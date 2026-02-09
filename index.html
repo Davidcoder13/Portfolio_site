@@ -1,56 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Portfolio | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-badge">CS</span>
+          <span>David Lunshof</span>
+        </div>
+        <nav class="nav-links">
+          <a class="active" href="index.html">Home</a>
+          <a href="about.html">About Me</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="reflection.html">Reflection</a>
+        </nav>
+      </div>
+    </header>
 
- <!DOCTYPE html>
- <html lang="en">
- <head>
-   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>David | Student Portfolio</title>
-  <link rel="stylesheet" href="css/style.css" />
- </head>
- <body>
-  <!-- Site header with navigation (appears on every page) -->
-  <header class="site-header container">
-    <div class="logo">David</div>
-    <nav class="nav" aria-label="Main navigation">
-      <a class="active" href="index.html">Home</a>
-      <a href="about.html">About Me</a>
-      <a href="work.html">Portfolio</a>
-      <a href="reflection.html">Reflection</a>
-    </nav>
-  </header>
+    <main class="container">
+      <section class="hero">
+        <div>
+          <div class="badge">BEM1O | Intro to Business and Technology</div>
+          <h1 class="hero-title">David Lunshof</h1>
+          <p class="hero-subtitle">
+            I am a student interested in technology and computer science. I work on
+            websites and digital projects and enjoy learning how systems work and
+            improve over time. This portfolio tracks my learning, problem-solving,
+            and growth throughout the course.
+          </p>
+          <div class="meta-row">
+            <span class="meta-pill">Tech Focused</span>
+            <span class="meta-pill">Web Development</span>
+            <span class="meta-pill">Problem Solving</span>
+            <span class="meta-pill">Grade 9</span>
+            <span class="meta-pill">Southwood Secondary</span>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h2>Current Focus</h2>
+          <p>
+            Building clean, usable web pages and understanding how technology connects
+            people, information, and ideas. I am practicing logical thinking and
+            troubleshooting with each assignment.
+          </p>
+          <div class="code-block">
+            const mindset = ["curious", "focused", "improving"];
+          </div>
+        </div>
+      </section>
 
-  <main class="container">
-    <!-- Hero section with course title and welcome message -->
-    <section class="hero" aria-labelledby="home-title">
-      <div>
-        <span class="course">Course: BEM1O</span>
-        <h1 id="home-title">Hi, I’m David.</h1>
-        <p>
-          Welcome to my student portfolio! I’m exploring business, design, and technology by creating projects that solve real problems in creative ways.
-          Here you can see my work, learn about my goals, and read my reflections as I grow.
+      <section class="section">
+        <h2 class="section-title">Tech-Inspired Highlights</h2>
+        <p class="section-subtitle">
+          A simple overview of the skills and interests that shape my work in BEM1O.
         </p>
-      </div>
-      <div class="hero-card">
-        <!-- Header image placeholder (stored locally for GitHub Pages) -->
-        <img src="images/header-placeholder.svg" alt="Colorful header placeholder" />
-      </div>
-    </section>
+        <div class="grid">
+          <article class="card">
+            <h3>Clean Design</h3>
+            <p>
+              I use grids, spacing, and clear typography to keep content organized and
+              easy to read.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Creative Problem-Solving</h3>
+            <p>
+              Each project is a chance to test ideas, debug issues, and learn better
+              ways to build.
+            </p>
+          </article>
+          <article class="card">
+            <h3>Growing Skills</h3>
+            <p>
+              I track my progress with reflections and updates so my portfolio shows
+              improvement over time.
+            </p>
+          </article>
+        </div>
+      </section>
+    </main>
 
-    <!-- Quick summary card -->
-    <section class="section" aria-labelledby="summary-title">
-      <div class="card">
-        <h2 id="summary-title">Portfolio Snapshot</h2>
-        <p>
-          I’m a Grade 9 student who enjoys turning ideas into clear, helpful designs. My favorite projects mix business planning, storytelling,
-          and simple technology tools like HTML and Canva.
-        </p>
-      </div>
-    </section>
-  </main>
-
-  <!-- Footer -->
-  <footer class="site-footer container">
-    <p>Student Portfolio • BEM1O</p>
-  </footer>
- </body>
- </html>
+    <footer class="footer">
+      <div class="container">David Lunshof | BEM1O Student Portfolio</div>
+    </footer>
+  </body>
+</html>

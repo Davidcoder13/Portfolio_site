@@ -1,86 +1,115 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Me | David</title>
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-  <!-- Site header with navigation (appears on every page) -->
-  <header class="site-header container">
-    <div class="logo">David</div>
-    <nav class="nav" aria-label="Main navigation">
-      <a href="index.html">Home</a>
-      <a class="active" href="about.html">About Me</a>
-      <a href="work.html">Portfolio</a>
-      <a href="reflection.html">Reflection</a>
-    </nav>
-  </header>
-
-  <main class="container">
-    <!-- About me section -->
-    <section class="section" aria-labelledby="about-title">
-      <h2 id="about-title">About Me</h2>
-      <p>
-        David is a student with a strong interest in computers, programming, and building things that actually work. He spends most of his time experimenting
-        with code, designing websites, and exploring how data and AI can be used to solve real problems—especially in areas like finance and automation.
-        When he’s not debugging something that “should’ve worked,” he’s probably learning a new tool, pushing projects to GitHub, or refining ideas into
-        something better than the last version. Curious by default, hands-on by choice, and always improving. Also a fan of cats, because obviously.
-      </p>
-    </section>
-
-    <!-- Interests and hobbies section -->
-    <section class="section" aria-labelledby="interests-title">
-      <h2 id="interests-title">Interests &amp; Hobbies</h2>
-      <div class="card">
-        <p>
-          I enjoy exploring business ideas, building mini websites, and experimenting with tech tools like spreadsheets and design apps. Outside of class, I like
-          photography, basketball, and helping friends with creative projects.
-        </p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Portfolio | About Me</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container nav">
+        <div class="brand">
+          <span class="brand-badge">CS</span>
+          <span>David Lunshof</span>
+        </div>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a class="active" href="about.html">About Me</a>
+          <a href="portfolio.html">Portfolio</a>
+          <a href="reflection.html">Reflection</a>
+        </nav>
       </div>
-    </section>
+    </header>
 
-    <!-- Favorites section -->
-    <section class="section" aria-labelledby="favorites-title">
-      <h2 id="favorites-title">My Favourites</h2>
-      <div class="card">
-        <ul>
-          <li>Books: <strong>Wonder</strong> by R.J. Palacio, <strong>The One and Only Ivan</strong> by Katherine Applegate</li>
-          <li>TV Shows: <strong>Stranger Things</strong>, <strong>Avatar: The Last Airbender</strong></li>
-          <li>Video Games: <strong>Minecraft</strong>, <strong>Rocket League</strong></li>
-          <li>Movies: <strong>Spider-Man: Into the Spider-Verse</strong>, <strong>The Mitchells vs. the Machines</strong></li>
-        </ul>
-      </div>
-    </section>
+    <main class="container">
+      <section class="hero">
+        <div>
+          <div class="badge">About Me</div>
+          <h1 class="hero-title">Curious About How Tech Works</h1>
+          <p class="hero-subtitle">
+            I am interested in technology and computer science because I like seeing
+            how digital systems are designed and improved. Building websites and
+            digital projects helps me combine creativity with logic, and I enjoy
+            exploring how small changes can make systems more efficient and user
+            friendly.
+          </p>
+        </div>
+        <div class="hero-card">
+          <h2>Focus Areas</h2>
+          <p>
+            I am learning to connect ideas, test solutions, and communicate my
+            thinking clearly. This page shows my interests, goals, and milestones.
+          </p>
+          <div class="code-block">
+            // learning loop
+            learn -> build -> reflect -> improve
+          </div>
+        </div>
+      </section>
 
-    <!-- Accomplishments section -->
-    <section class="section" aria-labelledby="accomplishments-title">
-      <h2 id="accomplishments-title">Accomplishments</h2>
-      <div class="card">
-        <ul>
-          <li>Honour Roll certificate for academic achievement</li>
-          <li>Completed a beginner HTML &amp; CSS course certificate</li>
-          <li>Presented a business pitch idea at a school showcase</li>
-        </ul>
-      </div>
-    </section>
+      <section class="section split">
+        <div class="card">
+          <h2 class="section-title">Interests</h2>
+          <ul class="list">
+            <li>Computers</li>
+            <li>Programming</li>
+            <li>Web development</li>
+            <li>Problem-solving</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h2 class="section-title">Favourites</h2>
+          <ul class="list">
+            <li>Book: Call of the Wild</li>
+            <li>Show: TBD</li>
+            <li>Game: Minecraft</li>
+            <li>Movie: Avatar</li>
+          </ul>
+        </div>
+      </section>
 
-    <!-- Goals section -->
-    <section class="section" aria-labelledby="goals-title">
-      <h2 id="goals-title">Personal &amp; Academic Goals</h2>
-      <div class="card">
-        <p>
-          My goal is to improve my presentation skills, learn how to build full websites, and understand how entrepreneurs turn ideas into real businesses.
-          I also want to keep my grades strong and join the school tech club next year.
-        </p>
-      </div>
-    </section>
-  </main>
+      <section class="section split">
+        <div class="card">
+          <h2 class="section-title">Accomplishments</h2>
+          <ul class="list">
+            <li>Certificate: Apple certificate of programming</li>
+            <li>Certificate: Babysitting certificate</li>
+            <li>Achievement: First multi-page website (placeholder)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h2 class="section-title">Goals</h2>
+          <ul class="list">
+            <li>Course: Still deciding; focus on BEM1O fundamentals.</li>
+            <li>Career: Technology.</li>
+            <li>Personal: Improve focus, teamwork, and independent learning.</li>
+          </ul>
+        </div>
+      </section>
 
-  <!-- Footer -->
-  <footer class="site-footer container">
-    <p>Student Portfolio • BEM1O</p>
-  </footer>
-</body>
+      <section class="section split">
+        <div class="card">
+          <h2 class="section-title">School Info</h2>
+          <ul class="list">
+            <li>Grade 9</li>
+            <li>Southwood Secondary</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h2 class="section-title">Contact</h2>
+          <ul class="list">
+            <li>Email: Lunsd3538@wrdsb.ca</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">David Lunshof | BEM1O Student Portfolio</div>
+    </footer>
+  </body>
 </html>

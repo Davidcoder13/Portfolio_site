@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
-  <rect width="800" height="500" fill="#f4f2ff" />
-  <rect x="50" y="50" width="700" height="400" rx="24" fill="#ffffff" />
-  <text x="400" y="270" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="36" fill="#6c4bff">Project Image Placeholder</text>
-</svg>

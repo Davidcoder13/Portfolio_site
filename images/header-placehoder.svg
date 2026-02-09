@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <rect width="1200" height="600" fill="#e8e6ff" />
+  <rect x="80" y="80" width="1040" height="440" rx="32" fill="#ffffff" />
+  <text x="600" y="310" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="48" fill="#6c4bff">Header Image Placeholder</text>
+</svg>

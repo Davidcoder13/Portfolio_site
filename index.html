@@ -3,143 +3,53 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Emmy - Student Designer Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>Alex Rivera | Student Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
-  <div class="page">
-    <header class="site-header">
-      <div class="logo" data-editable data-key="logoText">EMMY.</div>
-      <nav class="nav">
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#portfolio">Portfolio</a>
-        <a href="#blog">Blog</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <a class="cta" href="#contact" data-editable data-key="headerCta">Let’s Talk</a>
-    </header>
+  <!-- Site header with navigation (appears on every page) -->
+  <header class="site-header container">
+    <div class="logo">Alex Rivera</div>
+    <nav class="nav" aria-label="Main navigation">
+      <a class="active" href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="work.html">Portfolio</a>
+      <a href="reflection.html">Reflection</a>
+    </nav>
+  </header>
 
-    <main>
-      <section class="hero" id="home">
-        <div class="hero-text">
-          <p class="eyebrow" data-editable data-key="heroEyebrow">Hi, I’m Emmy Rose!</p>
-          <h1>
-            <span data-editable data-key="heroTitleTop">WEB</span>
-            <span class="accent" data-editable data-key="heroTitleAccent">DESIGNER</span>
-          </h1>
-          <p class="intro" data-editable data-key="heroIntro">
-            I’m a 14-year-old student who loves designing clean, friendly websites. I mix bold colors with simple layouts to make digital projects feel welcoming and easy to use.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#portfolio" data-editable data-key="primaryButton">Projects</a>
-            <a class="button ghost" href="#contact" data-editable data-key="secondaryButton">Hire Me</a>
-          </div>
-          <div class="social">
-            <span data-editable data-key="socialLabel">Follow me:</span>
-            <div class="social-icons">
-              <a href="#" aria-label="Instagram">IG</a>
-              <a href="#" aria-label="Dribbble">DB</a>
-              <a href="#" aria-label="Behance">BE</a>
-            </div>
-          </div>
-        </div>
-        <div class="hero-card">
-          <img data-image data-key="heroImage" src="https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=600&q=80" alt="Portrait of Emmy" />
-        </div>
-      </section>
+  <main class="container">
+    <!-- Hero section with course title and welcome message -->
+    <section class="hero" aria-labelledby="home-title">
+      <div>
+        <span class="course">Course: BEM1O</span>
+        <h1 id="home-title">Hi, I’m Alex Rivera.</h1>
+        <p>
+          Welcome to my student portfolio! I’m exploring business, design, and technology by creating projects that solve real problems in creative ways.
+          Here you can see my work, learn about my goals, and read my reflections as I grow.
+        </p>
+      </div>
+      <div class="hero-card">
+        <!-- Header image placeholder (stored locally for GitHub Pages) -->
+        <img src="images/header-placeholder.svg" alt="Colorful header placeholder" />
+      </div>
+    </section>
 
-      <section class="about" id="about">
-        <div class="about-card">
-          <h2 data-editable data-key="aboutTitle">About Me</h2>
-          <p data-editable data-key="aboutText">
-            I’m a student designer who enjoys turning ideas into simple, beautiful pages. I focus on clear typography, gentle gradients, and layouts that work on phones and laptops.
-          </p>
-          <ul class="stats">
-            <li>
-              <span class="stat" data-editable data-key="statProjects">12+</span>
-              <span data-editable data-key="statProjectsLabel">School projects</span>
-            </li>
-            <li>
-              <span class="stat" data-editable data-key="statTools">5</span>
-              <span data-editable data-key="statToolsLabel">Design tools</span>
-            </li>
-            <li>
-              <span class="stat" data-editable data-key="statYears">2</span>
-              <span data-editable data-key="statYearsLabel">Years learning</span>
-            </li>
-          </ul>
-        </div>
-      </section>
+    <!-- Quick summary card -->
+    <section class="section" aria-labelledby="summary-title">
+      <div class="card">
+        <h2 id="summary-title">Portfolio Snapshot</h2>
+        <p>
+          I’m a Grade 9 student who enjoys turning ideas into clear, helpful designs. My favorite projects mix business planning, storytelling,
+          and simple technology tools like HTML and Canva.
+        </p>
+      </div>
+    </section>
+  </main>
 
-      <section class="portfolio" id="portfolio">
-        <div class="section-title">
-          <h2 data-editable data-key="portfolioTitle">Featured Projects</h2>
-          <p data-editable data-key="portfolioIntro">Here are a few of my favorite school and personal design projects.</p>
-        </div>
-        <div class="project-grid">
-          <article class="project-card">
-            <img data-image data-key="projectOneImage" src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=600&q=80" alt="Notebook" />
-            <h3 data-editable data-key="projectOneTitle">Study Buddy App</h3>
-            <p data-editable data-key="projectOneText">A study planner dashboard concept that helps students manage homework and clubs.</p>
-          </article>
-          <article class="project-card">
-            <img data-image data-key="projectTwoImage" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" alt="Laptop" />
-            <h3 data-editable data-key="projectTwoTitle">Art Club Landing</h3>
-            <p data-editable data-key="projectTwoText">A landing page for my school art club with event highlights and gallery previews.</p>
-          </article>
-          <article class="project-card">
-            <img data-image data-key="projectThreeImage" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=600&q=80" alt="Creative workspace" />
-            <h3 data-editable data-key="projectThreeTitle">Science Fair Site</h3>
-            <p data-editable data-key="projectThreeText">A clean layout concept for showcasing science fair projects and student teams.</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="blog" id="blog">
-        <div class="section-title">
-          <h2 data-editable data-key="blogTitle">Latest Updates</h2>
-          <p data-editable data-key="blogIntro">Short notes about what I’m learning each month.</p>
-        </div>
-        <div class="blog-card" data-editable data-key="blogNote">
-          Practicing responsive layouts, color palettes, and improving my logo sketches.
-        </div>
-      </section>
-
-      <section class="contact" id="contact">
-        <div class="contact-card">
-          <h2 data-editable data-key="contactTitle">Let’s Build Something Together</h2>
-          <p data-editable data-key="contactText">Send me a note if you want to collaborate on a school project or creative idea.</p>
-          <div class="contact-actions">
-            <a class="button primary" href="mailto:hello@emmyrose.com" data-editable data-key="contactButton">Email Me</a>
-          </div>
-        </div>
-      </section>
-    </main>
-  </div>
-
-  <script>
-    const textNodes = document.querySelectorAll('[data-editable]');
-    const imageNodes = document.querySelectorAll('[data-image]');
-
-    textNodes.forEach((node) => {
-      const key = node.dataset.key;
-      const stored = localStorage.getItem(key);
-      if (stored) {
-        node.textContent = stored;
-      }
-    });
-
-    imageNodes.forEach((node) => {
-      const key = node.dataset.key;
-      const stored = localStorage.getItem(key);
-      if (stored) {
-        node.src = stored;
-      }
-    });
-  </script>
+  <!-- Footer -->
+  <footer class="site-footer container">
+    <p>Student Portfolio • BEM1O</p>
+  </footer>
 </body>
 </html>

@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <canvas id="particles" aria-hidden="true"></canvas>
     <header class="header">
       <div class="container nav">
         <div class="brand">
           <span class="brand-badge">CS</span>
-          <span>Student Name</span>
+          <span data-text="global.name">Student Name</span>
         </div>
         <nav class="nav-links">
           <a class="active" href="index.html">Home</a>
@@ -28,72 +29,51 @@
     <main class="container">
       <section class="hero">
         <div class="hero-copy fade-up">
-          <div class="badge">BEM1O | Intro to Business and Technology</div>
-          <p class="hero-kicker">Hi there, I'm [Your Name]</p>
+          <div class="badge" data-text="home.badge">BEM1O | Intro to Business and Technology</div>
+          <p class="hero-kicker" data-text="home.kicker">Hi there, I'm Student Name</p>
           <h1 class="hero-title">
-            I build <span class="accent">thoughtful</span> tech projects
+            <span data-text="home.heroTitleLead">I build</span>
+            <span class="accent rotate-word" data-rotate="home.heroTitleAccents">thoughtful</span>
+            <span data-text="home.heroTitleTail">tech projects</span>
           </h1>
-          <p class="hero-subtitle">
+          <p class="hero-subtitle" data-text="home.welcome">
             I am a student interested in technology and computer science. I work on
             websites and digital projects and enjoy learning how systems work and
             improve over time. This portfolio tracks my learning, problem-solving,
             and growth throughout the course.
           </p>
           <div class="hero-actions">
-            <a class="btn-primary" href="portfolio.html">See My Work</a>
-            <a class="btn-ghost" href="about.html">About Me</a>
+            <a class="btn-primary" href="portfolio.html" data-text="home.primaryButton">See My Work</a>
+            <a class="btn-ghost" href="about.html" data-text="home.secondaryButton">About Me</a>
           </div>
-          <div class="meta-row">
-            <span class="meta-pill">Tech Focused</span>
-            <span class="meta-pill">Web Development</span>
-            <span class="meta-pill">Problem Solving</span>
-            <span class="meta-pill">Grade [Level]</span>
-            <span class="meta-pill">[School Name]</span>
-          </div>
+          <div class="meta-row" data-pill-list="home.meta"></div>
         </div>
         <div class="hero-visual fade-up">
           <div class="photo-card">
             <div class="photo-placeholder">
-              <span>Photo of [Your Name]</span>
+              <span data-text="home.photoLabel">Photo of Student Name</span>
             </div>
           </div>
-          <p class="photo-caption">Placeholder image (replace with your photo).</p>
+          <p class="photo-caption" data-text="home.photoCaption">Placeholder image (replace with your photo).</p>
         </div>
       </section>
 
       <section class="section">
-        <h2 class="section-title fade-up">Tech-Inspired Highlights</h2>
-        <p class="section-subtitle fade-up">
+        <h2 class="section-title fade-up" data-text="home.highlightsTitle">Tech-Inspired Highlights</h2>
+        <p class="section-subtitle fade-up" data-text="home.highlightsSubtitle">
           A simple overview of the skills and interests that shape my work in BEM1O.
         </p>
-        <div class="grid">
-          <article class="card">
-            <h3>Clean Design</h3>
-            <p>
-              I use grids, spacing, and clear typography to keep content organized and
-              easy to read.
-            </p>
-          </article>
-          <article class="card">
-            <h3>Creative Problem-Solving</h3>
-            <p>
-              Each project is a chance to test ideas, debug issues, and learn better
-              ways to build.
-            </p>
-          </article>
-          <article class="card">
-            <h3>Growing Skills</h3>
-            <p>
-              I track my progress with reflections and updates so my portfolio shows
-              improvement over time.
-            </p>
-          </article>
-        </div>
+        <div class="grid" data-card-list="home.highlightCards"></div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="container">Student Name | BEM1O Student Portfolio</div>
+      <div class="container">
+        <span data-text="global.name">Student Name</span> |
+        <span data-text="global.course">BEM1O</span> Student Portfolio
+      </div>
     </footer>
+    <script src="content-loader.js"></script>
+    <script src="particles-bg.js"></script>
   </body>
 </html>

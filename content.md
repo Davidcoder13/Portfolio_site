@@ -12,7 +12,7 @@ Use this file to plan and update the text on your site. Copy the text into the m
 ## Home Page
 - Kicker line: Hi there, I'm [Your Name]
 - Hero title: I build thoughtful tech projects
-- Welcome paragraph (2–3 sentences):
+- Welcome paragraph (2-3 sentences):
   [Write a short intro about your interest in technology, building websites, and problem-solving.]
 - Buttons:
   - Primary: See My Work

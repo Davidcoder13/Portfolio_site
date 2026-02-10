@@ -20,6 +20,7 @@ body {
   font-family: "Space Grotesk", "Segoe UI", sans-serif;
   color: var(--text);
   background-color: var(--bg);
+  position: relative;
   background-image:
     radial-gradient(circle at top right, rgba(255, 255, 255, 0.9), rgba(253, 244, 241, 0.3) 55%),
     linear-gradient(120deg, rgba(253, 244, 241, 0.8), rgba(246, 231, 224, 0.6)),
@@ -27,6 +28,29 @@ body {
     linear-gradient(90deg, transparent 23px, rgba(15, 23, 42, 0.03) 24px);
   background-size: auto, auto, 24px 24px, 24px 24px;
   min-height: 100vh;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: -20%;
+  background: radial-gradient(circle at 10% 20%, rgba(225, 29, 72, 0.12), transparent 45%),
+    radial-gradient(circle at 80% 10%, rgba(15, 23, 42, 0.12), transparent 40%),
+    radial-gradient(circle at 70% 80%, rgba(225, 29, 72, 0.1), transparent 45%);
+  opacity: 0.6;
+  z-index: -1;
+  animation: glowMove 18s ease-in-out infinite;
+  pointer-events: none;
+}
+
+#particles {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  opacity: 0.35;
 }
 
 img {
@@ -50,6 +74,12 @@ a {
   background: rgba(253, 244, 241, 0.92);
   backdrop-filter: blur(16px);
   border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+}
+
+main,
+footer {
+  position: relative;
+  z-index: 1;
 }
 
 .nav {
@@ -132,6 +162,16 @@ a {
   color: var(--accent);
 }
 
+.rotate-word {
+  display: inline-block;
+  transition: opacity 0.35s ease, transform 0.35s ease;
+}
+
+.rotate-word.is-fading {
+  opacity: 0;
+  transform: translateY(6px);
+}
+
 .hero-subtitle {
   font-size: 1.05rem;
   color: var(--muted);
@@ -192,6 +232,7 @@ a {
   box-shadow: var(--shadow);
   transform: rotate(-2deg);
   animation: float 6s ease-in-out infinite;
+  transition: transform 0.3s ease;
 }
 
 .photo-card::before {
@@ -219,6 +260,12 @@ a {
       rgba(255, 255, 255, 0.1) 8px,
       rgba(255, 255, 255, 0.1) 16px
     );
+  background-size: 200% 200%;
+  animation: shimmer 12s ease-in-out infinite;
+}
+
+.photo-card:hover {
+  transform: rotate(-1deg) translateY(-6px);
 }
 
 .photo-caption {
@@ -251,6 +298,12 @@ a {
   border-radius: 999px;
   background: rgba(225, 29, 72, 0.1);
   color: var(--accent-2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.meta-pill:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(15, 23, 42, 0.12);
 }
 
 .section {
@@ -324,6 +377,12 @@ a {
   border-radius: 12px;
   padding: 10px 14px;
   border: 1px solid rgba(15, 23, 42, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.list li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.12);
 }
 
 .split {
@@ -342,6 +401,12 @@ a {
   border-radius: 16px;
   border: 1px dashed rgba(15, 23, 42, 0.2);
   background: rgba(255, 255, 255, 0.8);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.timeline-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 32px rgba(15, 23, 42, 0.12);
 }
 
 .timeline-item h4 {
@@ -378,6 +443,28 @@ a {
   }
 }
 
+@keyframes shimmer {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes glowMove {
+  0%,
+  100% {
+    transform: translateY(0) translateX(0) scale(1);
+  }
+  50% {
+    transform: translateY(-2%) translateX(1%) scale(1.02);
+  }
+}
+
 @keyframes float {
   0%,
   100% {
@@ -406,5 +493,16 @@ a {
 
   .photo-card {
     transform: rotate(0deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+
+  #particles {
+    display: none;
   }
 }

@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
+    <canvas id="particles" aria-hidden="true"></canvas>
     <header class="header">
       <div class="container nav">
         <div class="brand">
           <span class="brand-badge">CS</span>
-          <span>Student Name</span>
+          <span data-text="global.name">Student Name</span>
         </div>
         <nav class="nav-links">
           <a href="index.html">Home</a>
@@ -29,15 +30,15 @@
       <section class="hero">
         <div>
           <div class="badge">Reflection</div>
-          <h1 class="hero-title">Learning Log</h1>
-          <p class="hero-subtitle">
+          <h1 class="hero-title" data-text="reflection.title">Learning Log</h1>
+          <p class="hero-subtitle" data-text="reflection.intro">
             Reflection helps me track growth, notice patterns, and improve how I
             solve problems. I add a new entry after major assignments or units.
           </p>
         </div>
         <div class="hero-card">
           <h2>Skills I Track</h2>
-          <p>
+          <p data-text="reflection.skills">
             Teamwork, communication, technical thinking, and problem-solving are core
             skills in BEM1O. I look for evidence of progress in each reflection.
           </p>
@@ -49,58 +50,22 @@
 
       <section class="section">
         <h2 class="section-title">Reflection Entries</h2>
-        <p class="section-subtitle">
+        <p class="section-subtitle" data-text="reflection.subtitle">
           Use this layout after major milestones. Copy and update the template for
           each new assignment.
         </p>
 
-        <div class="timeline">
-          <article class="timeline-item">
-            <h4>Entry 1: Multi-Page Website</h4>
-            <p>
-              <strong>What did I learn?</strong> I learned how to keep navigation consistent and how CSS
-              can create a clean visual system.
-            </p>
-            <p>
-              <strong>What went well?</strong> Planning the layout first made the build process smoother.
-            </p>
-            <p>
-              <strong>What was challenging?</strong> Debugging spacing issues took time, but I solved it by
-              testing one section at a time.
-            </p>
-          </article>
-
-          <article class="timeline-item">
-            <h4>Entry 2: Research Summary</h4>
-            <p>
-              <strong>What did I learn?</strong> I practiced turning complex information into clear points.
-            </p>
-            <p>
-              <strong>What went well?</strong> Organizing sources and staying focused helped me finish early.
-            </p>
-            <p>
-              <strong>What was challenging?</strong> I had to revise my draft to keep it short and readable.
-            </p>
-          </article>
-
-          <article class="timeline-item">
-            <h4>Entry 3: Placeholder for Future Reflection</h4>
-            <p>
-              <strong>What did I learn?</strong> [Add notes about new skills or ideas.]
-            </p>
-            <p>
-              <strong>What went well?</strong> [Add what worked or improved.]
-            </p>
-            <p>
-              <strong>What was challenging?</strong> [Add the biggest obstacle and how you solved it.]
-            </p>
-          </article>
-        </div>
+        <div class="timeline" id="reflection-entries"></div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="container">Student Name | BEM1O Student Portfolio</div>
+      <div class="container">
+        <span data-text="global.name">Student Name</span> |
+        <span data-text="global.course">BEM1O</span> Student Portfolio
+      </div>
     </footer>
+    <script src="content-loader.js"></script>
+    <script src="particles-bg.js"></script>
   </body>
 </html>

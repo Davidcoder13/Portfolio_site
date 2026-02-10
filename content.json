@@ -1,15 +1,15 @@
 ﻿{
   "global": {
-    "name": "Student Name",
+    "name": "David Lunshof",
     "grade": "Grade 9",
-    "school": "School Name",
-    "email": "student@school.ca",
-    "phone": "(000) 000-0000",
+    "school": "Southwood secondary",
+    "email": "Lunsd3538@wrdsb.ca",
+    "phone": "519-494-8832",
     "course": "BEM1O"
   },
   "home": {
     "badge": "BEM1O | Intro to Business and Technology",
-    "kicker": "Hi there, I'm Student Name",
+    "kicker": "Hi there, I'm David Name",
     "heroTitleLead": "I build",
     "heroTitleAccents": [
       "useful",
@@ -26,7 +26,7 @@
       "Web Development",
       "Problem Solving"
     ],
-    "highlightsTitle": "Tech-Inspired Highlights",
+    "highlightsTitle": "Highlights",
     "highlightsSubtitle": "A simple overview of the skills and interests that shape my work in BEM1O.",
     "highlightCards": [
       {
@@ -56,15 +56,15 @@
       "Problem-solving"
     ],
     "favourites": [
-      "Book: [Title]",
-      "Show: [Title]",
-      "Game: [Title]",
-      "Movie: [Title]"
+      "Book: [Call Of The Wild]",
+      "Show: [Lost In Space]",
+      "Game: [???????????]",
+      "Movie: [Avatar fire and ash]"
     ],
     "accomplishments": [
-      "Certificate: [Name]",
-      "Certificate: [Name]",
-      "Achievement: [Name]"
+      "Certificate: [Apple Certificate of programing]",
+      "Certificate: [Red cross baby sitting certificate ]",
+      "Achievement: [????????]"
     ],
     "goals": [
       "Course: [BEM1O goal]",
@@ -72,8 +72,8 @@
       "Personal: [Growth goal]"
     ],
     "contact": [
-      "Email: student@school.ca",
-      "Phone: (000) 000-0000"
+      "Email: Lunsd3538@wrdsb.ca",
+      "Phone: (519)-494-8832"
     ],
     "focusNote": "[Short note about what you are practicing right now.]"
   },

@@ -1,0 +1,88 @@
+﻿{
+  "global": {
+    "name": "Student Name",
+    "grade": "[Level]",
+    "school": "[School Name]",
+    "email": "[school.email@domain.ca]",
+    "course": "BEM1O"
+  },
+  "home": {
+    "kicker": "Hi there, I'm [Your Name]",
+    "heroTitle": "I build thoughtful tech projects",
+    "welcome": "I am a student interested in technology and computer science. I work on websites and digital projects and enjoy learning how systems work and improve over time. This portfolio tracks my learning, problem-solving, and growth throughout the course.",
+    "primaryButton": "See My Work",
+    "secondaryButton": "About Me",
+    "highlightsTitle": "Tech-Inspired Highlights",
+    "highlightsSubtitle": "A simple overview of the skills and interests that shape my work in BEM1O.",
+    "highlightCards": [
+      {
+        "title": "Clean Design",
+        "text": "[Short sentence about layouts/clarity.]"
+      },
+      {
+        "title": "Creative Problem-Solving",
+        "text": "[Short sentence about debugging/learning.]"
+      },
+      {
+        "title": "Growing Skills",
+        "text": "[Short sentence about improvement/reflecting.]"
+      }
+    ],
+    "photoCaption": "Placeholder image (replace with your photo)."
+  },
+  "about": {
+    "intro": "[Explain why technology and computer science interest you.]",
+    "focus": "[Explain what skills you are working on and why they matter.]",
+    "interests": [
+      "[Interest 1]",
+      "[Interest 2]",
+      "[Interest 3]",
+      "[Interest 4]"
+    ],
+    "favourites": {
+      "book": "[Title]",
+      "show": "[Title]",
+      "game": "[Title]",
+      "movie": "[Title]"
+    },
+    "accomplishments": [
+      "Certificate: [Name]",
+      "Certificate: [Name]",
+      "Achievement: [Name]"
+    ],
+    "goals": {
+      "course": "[BEM1O goal]",
+      "career": "[Technology/CS goal]",
+      "personal": "[Growth goal]"
+    }
+  },
+  "portfolio": {
+    "intro": "[Explain that this page tracks projects and reflections.]",
+    "yearPlan": "[Explain how you'll update this page across the year.]",
+    "unitSubtitles": {
+      "unit1": "[Short focus statement]",
+      "unit2": "[Short focus statement]",
+      "unit3": "[Short focus statement]"
+    },
+    "projects": [
+      {
+        "unit": "Unit 1",
+        "title": "[Assignment name]",
+        "description": "[What you built]",
+        "reflection": "[What you learned / problem solved]"
+      }
+    ]
+  },
+  "reflection": {
+    "intro": "[Why reflection helps you grow]",
+    "skills": "[Skills you track like teamwork, communication, problem-solving]",
+    "entries": [
+      {
+        "title": "[Assignment name]",
+        "learned": "[Short answer]",
+        "wentWell": "[Short answer]",
+        "challenging": "[Short answer]"
+      }
+    ]
+  }
+}

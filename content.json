@@ -9,13 +9,13 @@
   },
   "home": {
     "badge": "BEM1O | Intro to Business and Technology",
-    "kicker": "Hi there, I'm David Name",
+    "kicker": "Hi there, I'm David",
     "heroTitleLead": "I build",
     "heroTitleAccents": [
       "useful",
       "creative",
       "reliable",
-      "thoughtful"
+      "intelligent"
     ],
     "heroTitleTail": "projects",
     "welcome": "I am a student interested in technology and computer science. I work on websites and digital projects and enjoy learning how systems work and improve over time. This portfolio tracks my learning, problem-solving, and growth throughout the course.",
@@ -43,7 +43,6 @@
       }
     ],
     "photoLabel": "Photo of Student Name",
-    "photoCaption": "Placeholder image (replace with your photo)."
   },
   "about": {
     "title": "Curious About How Tech Works",
@@ -56,20 +55,20 @@
       "Problem-solving"
     ],
     "favourites": [
-      "Book: [Call Of The Wild]",
-      "Show: [Lost In Space]",
-      "Game: [???????????]",
-      "Movie: [Avatar fire and ash]"
+      "Book: Call Of The Wild",
+      "Show: Lost In Space",
+      "Game: ???????????",
+      "Movie: Avatar fire and ash"
     ],
     "accomplishments": [
-      "Certificate: [Apple Certificate of programing]",
-      "Certificate: [Red cross baby sitting certificate ]",
-      "Achievement: [????????]"
+      "Certificate: Apple Certificate of Programming",
+      "Certificate: Red Cross babysitting certificate ",
+      "Achievement: ????????"
     ],
     "goals": [
       "Course: [BEM1O goal]",
       "Career: [Technology/CS goal]",
-      "Personal: [Growth goal]"
+      "Personal: [Growth goa]"
     ],
     "contact": [
       "Email: Lunsd3538@wrdsb.ca",
@@ -83,8 +82,8 @@
     "yearPlan": "I will add new assignments as they are completed, including group work or presentations. This page shows how my skills grow across the course.",
     "units": [
       {
-        "title": "Unit 1: Digital Foundations",
-        "subtitle": "Introductory projects focused on understanding digital tools.",
+        "title": "Unit 1:",
+        "subtitle": "Lorb.",
         "projects": [
           {
             "title": "Assignment 1: My First Web Page",

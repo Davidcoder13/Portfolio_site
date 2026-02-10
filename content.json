@@ -1,4 +1,4 @@
-﻿{
+{
   "global": {
     "name": "David Lunshof",
     "grade": "Grade 9",
@@ -42,7 +42,7 @@
         "text": "I track progress with reflections and updates so the portfolio shows improvement over time."
       }
     ],
-    "photoLabel": "Photo of Student Name",
+    "photoLabel": "Photo of Student Name"
   },
   "about": {
     "title": "Curious About How Tech Works",

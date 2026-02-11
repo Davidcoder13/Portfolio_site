@@ -1,24 +1,18 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Student Portfolio | Home</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet" />
+    <title>David Lunshof | Home</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="header">
       <div class="container nav">
-        <div class="brand">
-          <span class="brand-badge">CS</span>
-          <span data-text="global.name">Student Name</span>
-        </div>
-        <nav class="nav-links">
+        <div class="brand"><span class="brand-badge">DL</span> <span data-global-name>David Lunshof</span></div>
+        <nav>
           <a class="active" href="index.html">Home</a>
-          <a href="about.html">About Me</a>
+          <a href="about.html">About</a>
           <a href="portfolio.html">Portfolio</a>
           <a href="reflection.html">Reflection</a>
         </nav>
@@ -27,52 +21,28 @@
 
     <main class="container">
       <section class="hero">
-        <div class="hero-copy fade-up">
-          <div class="badge" data-text="home.badge">BEM1O | Intro to Business and Technology</div>
-          <p class="hero-kicker">
-            <span data-text="home.taglineLead">A student focused on</span>
-            <span class="rotate-word" data-rotate="home.taglineAccents">learning</span>.
-          </p>
-          <h1 class="hero-title">
-            <span data-text="home.heroTitleLead">I build</span>
-            <span class="accent rotate-word" data-rotate="home.heroTitleAccents">thoughtful</span>
-            <span data-text="home.heroTitleTail">tech projects</span>
-          </h1>
-          <p class="hero-subtitle" data-text="home.welcome">
-            I am a student interested in technology and computer science. I work on
-            websites and digital projects and enjoy learning how systems work and
-            improve over time. This portfolio tracks my learning, problem-solving,
-            and growth throughout the course.
-          </p>
-          <div class="hero-actions">
-            <a class="btn-primary" href="portfolio.html" data-text="home.primaryButton">See My Work</a>
-            <a class="btn-ghost" href="about.html" data-text="home.secondaryButton">About Me</a>
+        <div>
+          <p class="kicker" data-home-kicker>Hi there, I'm David</p>
+          <h1><span data-home-hero-lead>Focused on</span> <span class="accent" data-home-hero-rotate>Learning</span></h1>
+          <p data-home-welcome></p>
+          <div class="actions">
+            <a class="btn" href="portfolio.html" data-home-primary>See My Work</a>
+            <a class="btn ghost" href="about.html" data-home-secondary>About Me</a>
           </div>
-          <div class="meta-row" data-pill-list="home.meta"></div>
         </div>
-        <div class="hero-visual fade-up">
-          <div class="photo-card">
-            <div class="photo-placeholder">
-              <img src="David.jpg" alt="Very Cool dev">
-            </div>
-          </div>
+        <div class="photo-wrap">
+          <img src="David.jpg" />
         </div>
       </section>
 
       <section class="section">
-        <h2 class="section-title fade-up" data-text="home.highlightsTitle">Tech-Inspired Highlights</h2>
-        <p class="section-subtitle fade-up" data-text="home.highlightsSubtitle">
-          A simple overview of the skills and interests that shape my work in BEM1O.
-        </p>
-        <div class="grid" data-card-list="home.highlightCards"></div>
+        <h2>Highlights</h2>
+        <div class="grid" data-home-highlights></div>
       </section>
     </main>
 
     <footer class="footer">
-      <div class="container">
-        <span data-text="global.name">Student Name</span> |
-        <span data-text="global.course">BEM1O</span> Student Portfolio
-      </div>
+      <div class="container"><span data-global-name>David Lunshof</span> · <span data-course>BEM1O</span></div>
     </footer>
     <script src="content-loader.js"></script>
   </body>

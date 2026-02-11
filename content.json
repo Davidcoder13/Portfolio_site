@@ -1,105 +1,148 @@
-﻿{
+{
   "global": {
-    "name": "David Lunshof",
+    "name": "David",
     "grade": "Grade 9",
-    "school": "Southwood Secondary",
+    "school": "southwood secondary",
     "email": "Lunsd3538@wrdsb.ca",
-    "phone": "519-494-8832",
+    "phone": "",
     "course": "BEM1O"
   },
   "home": {
     "badge": "BEM1O | Intro to Business and Technology",
-    "taglineLead": "A student focused on",
+    "taglineLead": "Hi there, I'm David",
     "taglineAccents": [
       "learning",
-      "problem-solving",
-      "growth"
+      "growth",
+      "progress",
+      "discipline",
+      "focus",
+      "curiosity",
+      "mastery",
+      "effort",
+      "strategy",
+      "achievement"
     ],
-    "heroTitleLead": "I build",
+    "heroTitleLead": "Focused on",
     "heroTitleAccents": [
-      "useful",
-      "reliable",
-      "creative",
-      "thoughtful",
-      "clear"
+      "Learning",
+      "Growth",
+      "Progress",
+      "Discipline",
+      "Focus",
+      "Curiosity",
+      "Mastery",
+      "Effort",
+      "Strategy",
+      "Achievement"
     ],
-    "heroTitleTail": "projects",
-    "welcome": "Welcome to my course portfolio for BEM1O - Introduction to Business and Technology. This site documents my learning, skill development, and progress throughout the course. It highlights my work, reflections, and growth over time.",
-    "primaryButton": "View My Portfolio",
+    "heroTitleTail": "",
+    "welcome": "I’m a student who’s into technology and computer science. I like building websites and digital projects. I enjoy figuring out how systems function and improving them over time through problem-solving and iteration.",
+    "primaryButton": "See My Work",
     "secondaryButton": "About Me",
     "meta": [
-      "Learning",
-      "Problem Solving",
-      "Growth"
+      "Grade 9",
+      "southwood secondary",
+      "BEM1O"
     ],
     "highlightsTitle": "Tech-Inspired Highlights",
-    "highlightsSubtitle": "A simple overview of the skills and interests that shape my work in BEM1O.",
+    "highlightsSubtitle": "A quick look at how I approach design, coding, and growth.",
     "highlightCards": [
       {
-        "title": "Learning",
-        "text": "Developing new skills and understanding through hands-on activities and projects."
+        "title": "Clean Design",
+        "text": "I focus on layouts that are simple, organized, and easy to use."
       },
       {
-        "title": "Problem Solving",
-        "text": "Applying logic and reflection to improve my work and overcome challenges."
+        "title": "Creative Problem-Solving",
+        "text": "I enjoy debugging code and finding smarter ways to make things work."
       },
       {
-        "title": "Growth",
-        "text": "Tracking progress and improvement throughout the course."
+        "title": "Growing Skills",
+        "text": "Every project helps me improve my coding, design, and critical thinking skills."
       }
     ],
-    "photoLabel": "Photo of David Lunshof",
-    "photoCaption": "Placeholder image (replace with your photo)."
+    "photoLabel": "Photo of David",
+    "photoCaption": ""
   },
   "about": {
-    "title": "Curious About How Tech Works",
-    "intro": "I am a student interested in technology and computer science because I enjoy understanding how systems work and how they can be improved. I like exploring how ideas turn into functional digital solutions.",
-    "focus": "I am building skills in problem-solving, digital literacy, organization, and critical thinking. Through coursework and projects, I am learning to plan, test, reflect, and improve my work.",
+    "title": "About Me",
+    "intro": "Technology interests me because it’s always evolving and there’s always something new to learn. I like how computer science combines logic and creativity — you can build real tools from just ideas and code. It feels powerful to understand how the digital world actually works behind the scenes.",
+    "focus": "Right now, I’m working on improving my HTML, CSS, and programming skills. I’m also focusing on writing cleaner code and organizing projects better. These skills matter because they help me build more professional and scalable projects over time.",
     "interests": [
-      "Technology",
-      "Computer science",
+      "Programming",
       "Web development",
-      "Digital projects",
-      "Problem-solving",
-      "Learning new systems"
+      "Computers and hardware",
+      "Problem-solving"
     ],
     "favourites": [
-      "Book: Call of the Wild",
-      "Show: Lost in Space",
-      "Game: Space Engineers",
+      "Book: Call of the wild",
+      "Show: Lost in space",
+      "Game: Minecraft",
       "Movie: Avatar"
     ],
     "accomplishments": [
-      "Certificate: Apple certificate of programming",
-      "Certificate: Babysitting certificate",
-      "Achievement: First multi-page website"
+      "Certificate: Apple Certificate of programing",
+      "Certificate: Red cross babysitting Certificate"
     ],
     "goals": [
-      "Course: Successfully complete BEM1O with strong understanding",
-      "Career: Explore future pathways in technology and computer science",
-      "Personal: Improve consistency, organization, and confidence in my work"
+      "Course: Develop a strong, professional digital portfolio in BEM1O",
+      "Career: Work in technology or computer science, possibly software engineering",
+      "Personal: Keep improving my problem-solving skills and stay consistent with learning"
     ],
     "contact": [
-      "Email: Lunsd3538@wrdsb.ca",
-      "Phone: 519-494-8832"
+      "Email: Lunsd3538@wrdsb.ca"
     ],
-    "focusNote": "Currently practicing reflection, time management, and improving the clarity of my work."
+    "focusNote": "Grade: Grade 9 | School: southwood secondary"
   },
   "portfolio": {
-    "title": "My Work in BEM1O",
-    "intro": "",
-    "yearPlan": "",
+    "title": "Portfolio",
+    "intro": "This page tracks my projects and shows how my skills improve over time. Each project includes what I built and what I learned from the process.",
+    "yearPlan": "Throughout the year, I will update this page with new assignments, reflections, and improvements. My goal is to clearly show my progress and the challenges I’ve overcome.",
     "emptyTitle": "Portfolio Under Construction",
     "emptyMessage": "Projects and reflections will be added here as I complete assignments.",
-    "units": []
+    "units": [
+      {
+        "title": "Unit 1",
+        "subtitle": "Foundations of web design and structure",
+        "projects": [
+          {
+            "title": "Personal Portfolio Website",
+            "description": "Built a multi-page HTML website to showcase my projects, interests, and reflections.",
+            "reflection": "I learned how to structure pages properly and organize content using semantic HTML."
+          }
+        ]
+      },
+      {
+        "title": "Unit 2",
+        "subtitle": "Styling, layout, and user experience",
+        "projects": []
+      },
+      {
+        "title": "Unit 3",
+        "subtitle": "Advanced features and project refinement",
+        "projects": [
+          {
+            "title": "Stock Market Predictor Prototype",
+            "description": "Created a basic app that uses historical data to estimate stock price trends and display them on a graph.",
+            "reflection": "I learned about working with data, training models, and the importance of testing predictions against real results."
+          }
+        ]
+      }
+    ]
   },
   "reflection": {
-    "title": "Learning Log",
-    "intro": "",
-    "skills": "",
-    "subtitle": "",
+    "title": "Reflection",
+    "intro": "Reflection helps me understand what I’m improving at and what still needs work. By thinking about challenges and solutions, I can grow faster and avoid repeating mistakes.",
+    "skills": "I track skills like teamwork, communication, organization, and problem-solving. These skills are just as important as technical knowledge because they help me work effectively on bigger projects.",
+    "subtitle": "Each entry captures what I learned, what worked, and what I will improve next.",
     "emptyTitle": "Reflection Under Construction",
     "emptyMessage": "Reflection entries will be added after major assignments.",
-    "entries": []
+    "entries": [
+      {
+        "title": "Personal Portfolio Website",
+        "learned": "I learned how to structure a full website and keep the design consistent across pages.",
+        "wentWell": "The layout was clean and easy to navigate.",
+        "challenging": "Making everything responsive and fixing small layout bugs."
+      }
+    ]
   }
 }

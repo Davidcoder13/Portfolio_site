@@ -1,16 +1,29 @@
 {
   "global": {
-    "name": "David Lunshof",
+    "name": "David",
     "grade": "Grade 9",
-    "school": "Southwood Secondary",
+    "school": "southwood secondary",
     "email": "Lunsd3538@wrdsb.ca",
-    "phone": "519-494-8832",
+    "phone": "",
     "course": "BEM1O"
   },
   "home": {
-    "kicker": "Hi there, I'm David",
-    "heroLead": "Focused on",
-    "heroWords": [
+    "badge": "BEM1O | Intro to Business and Technology",
+    "taglineLead": "Hi there, I'm David",
+    "taglineAccents": [
+      "learning",
+      "growth",
+      "progress",
+      "discipline",
+      "focus",
+      "curiosity",
+      "mastery",
+      "effort",
+      "strategy",
+      "achievement"
+    ],
+    "heroTitleLead": "Focused on",
+    "heroTitleAccents": [
       "Learning",
       "Growth",
       "Progress",
@@ -22,10 +35,18 @@
       "Strategy",
       "Achievement"
     ],
+    "heroTitleTail": "",
     "welcome": "I’m a student who’s into technology and computer science. I like building websites and digital projects. I enjoy figuring out how systems function and improving them over time through problem-solving and iteration.",
     "primaryButton": "See My Work",
     "secondaryButton": "About Me",
-    "highlights": [
+    "meta": [
+      "Grade 9",
+      "southwood secondary",
+      "BEM1O"
+    ],
+    "highlightsTitle": "Tech-Inspired Highlights",
+    "highlightsSubtitle": "A quick look at how I approach design, coding, and growth.",
+    "highlightCards": [
       {
         "title": "Clean Design",
         "text": "I focus on layouts that are simple, organized, and easy to use."
@@ -38,11 +59,14 @@
         "title": "Growing Skills",
         "text": "Every project helps me improve my coding, design, and critical thinking skills."
       }
-    ]
+    ],
+    "photoLabel": "Photo of David",
+    "photoCaption": ""
   },
   "about": {
-    "intro": "Technology interests me because it’s always evolving and there’s always something new to learn. I like how computer science combines logic and creativity—you can build real tools from just ideas and code. It feels powerful to understand how the digital world works behind the scenes.",
-    "focus": "Right now, I’m improving my HTML, CSS, and programming skills. I’m also focusing on writing cleaner code and organizing projects better so my work looks more professional over time.",
+    "title": "About Me",
+    "intro": "Technology interests me because it’s always evolving and there’s always something new to learn. I like how computer science combines logic and creativity — you can build real tools from just ideas and code. It feels powerful to understand how the digital world actually works behind the scenes.",
+    "focus": "Right now, I’m working on improving my HTML, CSS, and programming skills. I’m also focusing on writing cleaner code and organizing projects better. These skills matter because they help me build more professional and scalable projects over time.",
     "interests": [
       "Programming",
       "Web development",
@@ -78,12 +102,64 @@
         "title": "Stock Market Predictor Prototype",
         "description": "Created a basic app that uses historical data to estimate stock price trends and display them on a graph.",
         "reflection": "I learned about working with data, training models, and the importance of testing predictions against real results."
+      "Certificate: Apple Certificate of programing",
+      "Certificate: Red cross babysitting Certificate"
+    ],
+    "goals": [
+      "Course: Develop a strong, professional digital portfolio in BEM1O",
+      "Career: Work in technology or computer science, possibly software engineering",
+      "Personal: Keep improving my problem-solving skills and stay consistent with learning"
+    ],
+    "contact": [
+      "Email: Lunsd3538@wrdsb.ca"
+    ],
+    "focusNote": "Grade: Grade 9 | School: southwood secondary"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "intro": "This page tracks my projects and shows how my skills improve over time. Each project includes what I built and what I learned from the process.",
+    "yearPlan": "Throughout the year, I will update this page with new assignments, reflections, and improvements. My goal is to clearly show my progress and the challenges I’ve overcome.",
+    "emptyTitle": "Portfolio Under Construction",
+    "emptyMessage": "Projects and reflections will be added here as I complete assignments.",
+    "units": [
+      {
+        "title": "Unit 1",
+        "subtitle": "Foundations of web design and structure",
+        "projects": [
+          {
+            "title": "Personal Portfolio Website",
+            "description": "Built a multi-page HTML website to showcase my projects, interests, and reflections.",
+            "reflection": "I learned how to structure pages properly and organize content using semantic HTML."
+          }
+        ]
+      },
+      {
+        "title": "Unit 2",
+        "subtitle": "Styling, layout, and user experience",
+        "projects": []
+      },
+      {
+        "title": "Unit 3",
+        "subtitle": "Advanced features and project refinement",
+        "projects": [
+          {
+            "title": "Stock Market Predictor Prototype",
+            "description": "Created a basic app that uses historical data to estimate stock price trends and display them on a graph.",
+            "reflection": "I learned about working with data, training models, and the importance of testing predictions against real results."
+          }
+        ]
       }
     ]
   },
   "reflection": {
     "intro": "Reflection helps me understand what I’m improving at and what still needs work. By thinking about challenges and solutions, I can grow faster and avoid repeating mistakes.",
     "skills": "I track skills like teamwork, communication, organization, and problem-solving. These skills are just as important as technical knowledge because they help me work effectively on bigger projects.",
+    "title": "Reflection",
+    "intro": "Reflection helps me understand what I’m improving at and what still needs work. By thinking about challenges and solutions, I can grow faster and avoid repeating mistakes.",
+    "skills": "I track skills like teamwork, communication, organization, and problem-solving. These skills are just as important as technical knowledge because they help me work effectively on bigger projects.",
+    "subtitle": "Each entry captures what I learned, what worked, and what I will improve next.",
+    "emptyTitle": "Reflection Under Construction",
+    "emptyMessage": "Reflection entries will be added after major assignments.",
     "entries": [
       {
         "title": "Personal Portfolio Website",

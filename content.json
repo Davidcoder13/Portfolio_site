@@ -74,12 +74,34 @@
       "Problem-solving"
     ],
     "favourites": [
-      "Book: Call of the wild",
-      "Show: Lost in space",
+      "Book: Call of the Wild",
+      "Show: Lost in Space",
       "Game: Minecraft",
       "Movie: Avatar"
     ],
     "accomplishments": [
+      "Apple Certificate of Programming",
+      "Red Cross Babysitting Certificate"
+    ],
+    "goals": [
+      "Course: Build a strong and professional digital portfolio in BEM1O",
+      "Career: Work in technology or computer science, possibly software engineering",
+      "Personal: Keep improving problem-solving and stay consistent with learning"
+    ]
+  },
+  "portfolio": {
+    "intro": "This page tracks my projects and shows how my skills improve over time. Each project includes what I built and what I learned from the process.",
+    "yearPlan": "Throughout the year, I will update this page with new assignments, reflections, and improvements. My goal is to clearly show my progress and the challenges I’ve overcome.",
+    "projects": [
+      {
+        "title": "Personal Portfolio Website",
+        "description": "Built a multi-page HTML website to showcase my projects, interests, and reflections.",
+        "reflection": "I learned how to structure pages properly and organize content using semantic HTML."
+      },
+      {
+        "title": "Stock Market Predictor Prototype",
+        "description": "Created a basic app that uses historical data to estimate stock price trends and display them on a graph.",
+        "reflection": "I learned about working with data, training models, and the importance of testing predictions against real results."
       "Certificate: Apple Certificate of programing",
       "Certificate: Red cross babysitting Certificate"
     ],
@@ -130,6 +152,8 @@
     ]
   },
   "reflection": {
+    "intro": "Reflection helps me understand what I’m improving at and what still needs work. By thinking about challenges and solutions, I can grow faster and avoid repeating mistakes.",
+    "skills": "I track skills like teamwork, communication, organization, and problem-solving. These skills are just as important as technical knowledge because they help me work effectively on bigger projects.",
     "title": "Reflection",
     "intro": "Reflection helps me understand what I’m improving at and what still needs work. By thinking about challenges and solutions, I can grow faster and avoid repeating mistakes.",
     "skills": "I track skills like teamwork, communication, organization, and problem-solving. These skills are just as important as technical knowledge because they help me work effectively on bigger projects.",

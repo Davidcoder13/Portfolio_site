@@ -9,6 +9,11 @@
       const value = getValue(data, el.dataset.text);
       if (value !== undefined && value !== null) {
         el.textContent = value;
+        if (value === "") {
+          el.classList.add("is-empty");
+        } else {
+          el.classList.remove("is-empty");
+        }
       }
     });
   }
@@ -118,6 +123,47 @@
     }
 
     container.innerHTML = "";
+
+    if (data.portfolio.units.length === 0) {
+      const section = document.createElement("section");
+      section.className = "section";
+
+      const title = document.createElement("h2");
+      title.className = "section-title";
+      title.textContent = data.portfolio.emptyTitle || "Portfolio Under Construction";
+
+      const subtitle = document.createElement("p");
+      subtitle.className = "section-subtitle";
+      subtitle.textContent = data.portfolio.emptyMessage || "";
+
+      const grid = document.createElement("div");
+      grid.className = "grid";
+
+      const card = document.createElement("article");
+      card.className = "card construction-card";
+
+      const tag = document.createElement("div");
+      tag.className = "construction-tag";
+      tag.textContent = "Under Construction";
+
+      const cardTitle = document.createElement("h3");
+      cardTitle.textContent = "Projects Coming Soon";
+
+      const cardText = document.createElement("p");
+      cardText.textContent = "Check back after the next assignment to see new work.";
+
+      card.appendChild(tag);
+      card.appendChild(cardTitle);
+      card.appendChild(cardText);
+      grid.appendChild(card);
+
+      section.appendChild(title);
+      section.appendChild(subtitle);
+      section.appendChild(grid);
+      container.appendChild(section);
+      return;
+    }
+
     data.portfolio.units.forEach((unit) => {
       const section = document.createElement("section");
       section.className = "section";
@@ -171,6 +217,28 @@
     }
 
     container.innerHTML = "";
+
+    if (data.reflection.entries.length === 0) {
+      const item = document.createElement("article");
+      item.className = "timeline-item construction-card";
+
+      const tag = document.createElement("div");
+      tag.className = "construction-tag";
+      tag.textContent = "Under Construction";
+
+      const title = document.createElement("h4");
+      title.textContent = data.reflection.emptyTitle || "Reflection Under Construction";
+
+      const message = document.createElement("p");
+      message.textContent = data.reflection.emptyMessage || "Reflection entries will be added later.";
+
+      item.appendChild(tag);
+      item.appendChild(title);
+      item.appendChild(message);
+      container.appendChild(item);
+      return;
+    }
+
     data.reflection.entries.forEach((entry) => {
       const item = document.createElement("article");
       item.className = "timeline-item";

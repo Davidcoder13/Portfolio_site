@@ -1,170 +1,105 @@
-{
+﻿{
   "global": {
     "name": "David Lunshof",
     "grade": "Grade 9",
-    "school": "Southwood secondary",
+    "school": "Southwood Secondary",
     "email": "Lunsd3538@wrdsb.ca",
     "phone": "519-494-8832",
     "course": "BEM1O"
   },
   "home": {
     "badge": "BEM1O | Intro to Business and Technology",
-    "kicker": "Hi there, I'm David",
+    "taglineLead": "A student focused on",
+    "taglineAccents": [
+      "learning",
+      "problem-solving",
+      "growth"
+    ],
     "heroTitleLead": "I build",
     "heroTitleAccents": [
-      "useful",
-      "creative",
-      "reliable",
-      "intelligent"
+      "learning",
+      "growing",
+      "improving",
+      "reflecting",
+      "progressing"
     ],
     "heroTitleTail": "projects",
-    "welcome": "I am a student interested in technology and computer science. I work on websites and digital projects and enjoy learning how systems work and improve over time. This portfolio tracks my learning, problem-solving, and growth throughout the course.",
-    "primaryButton": "See My Work",
+    "welcome": "Welcome to my course portfolio for BEM1O - Introduction to Business and Technology. This site documents my learning, skill development, and progress throughout the course. It highlights my work, reflections, and growth over time.",
+    "primaryButton": "View My Portfolio",
     "secondaryButton": "About Me",
     "meta": [
-      "Tech Focused",
-      "Web Development",
-      "Problem Solving"
+      "Learning",
+      "Problem Solving",
+      "Growth"
     ],
-    "highlightsTitle": "Highlights",
+    "highlightsTitle": "Tech-Inspired Highlights",
     "highlightsSubtitle": "A simple overview of the skills and interests that shape my work in BEM1O.",
     "highlightCards": [
       {
-        "title": "Clean Design",
-        "text": "I use grids, spacing, and clear typography to keep content organized and easy to read."
+        "title": "Learning",
+        "text": "Developing new skills and understanding through hands-on activities and projects."
       },
       {
-        "title": "Creative Problem-Solving",
-        "text": "Each project is a chance to test ideas, debug issues, and learn better ways to build."
+        "title": "Problem Solving",
+        "text": "Applying logic and reflection to improve my work and overcome challenges."
       },
       {
-        "title": "Growing Skills",
-        "text": "I track progress with reflections and updates so the portfolio shows improvement over time."
+        "title": "Growth",
+        "text": "Tracking progress and improvement throughout the course."
       }
     ],
-    "photoLabel": "Photo of Student Name"
+    "photoLabel": "Photo of David Lunshof",
+    "photoCaption": "Placeholder image (replace with your photo)."
   },
   "about": {
     "title": "Curious About How Tech Works",
-    "intro": "I am interested in technology and computer science because I like seeing how digital systems are designed and improved. Building websites and digital projects helps me combine creativity with logic, and I enjoy exploring how small changes can make systems more efficient and user friendly.",
-    "focus": "I am learning to connect ideas, test solutions, and communicate my thinking clearly. This page shows my interests, goals, and milestones.",
+    "intro": "I am a student interested in technology and computer science because I enjoy understanding how systems work and how they can be improved. I like exploring how ideas turn into functional digital solutions.",
+    "focus": "I am building skills in problem-solving, digital literacy, organization, and critical thinking. Through coursework and projects, I am learning to plan, test, reflect, and improve my work.",
     "interests": [
-      "Computers",
-      "Programming",
+      "Technology",
+      "Computer science",
       "Web development",
-      "Problem-solving"
+      "Digital projects",
+      "Problem-solving",
+      "Learning new systems"
     ],
     "favourites": [
-      "Book: Call Of The Wild",
-      "Show: Lost In Space",
-      "Game: ???????????",
-      "Movie: Avatar fire and ash"
+      "Book: Call of the Wild",
+      "Show: Lost in Space",
+      "Game: Space Engineers",
+      "Movie: Avatar"
     ],
     "accomplishments": [
-      "Certificate: Apple Certificate of Programming",
-      "Certificate: Red Cross babysitting certificate ",
-      "Achievement: ????????"
+      "Certificate: Apple certificate of programming",
+      "Certificate: Babysitting certificate",
+      "Achievement: First multi-page website"
     ],
     "goals": [
-      "Course: [BEM1O goal]",
-      "Career: [Technology/CS goal]",
-      "Personal: [Growth goa]"
+      "Course: Successfully complete BEM1O with strong understanding",
+      "Career: Explore future pathways in technology and computer science",
+      "Personal: Improve consistency, organization, and confidence in my work"
     ],
     "contact": [
       "Email: Lunsd3538@wrdsb.ca",
-      "Phone: (519)-494-8832"
+      "Phone: 519-494-8832"
     ],
-    "focusNote": "[Short note about what you are practicing right now.]"
+    "focusNote": "Currently practicing reflection, time management, and improving the clarity of my work."
   },
   "portfolio": {
     "title": "My Work in BEM1O",
-    "intro": "This section holds assignments, unit projects, and digital builds. Each project includes a short summary and a reflection on problem-solving and learning.",
-    "yearPlan": "I will add new assignments as they are completed, including group work or presentations. This page shows how my skills grow across the course.",
-    "units": [
-      {
-        "title": "Unit 1:",
-        "subtitle": "Lorb.",
-        "projects": [
-          {
-            "title": "Assignment 1: My First Web Page",
-            "description": "Built a simple HTML page with headings, lists, and images to learn the structure of a website.",
-            "reflection": "I learned how to organize content and fix layout mistakes."
-          },
-          {
-            "title": "Assignment 2: Research Summary",
-            "description": "Created a one-page report on a technology topic using clean formatting and clear sections.",
-            "reflection": "I practiced summarizing information and using evidence."
-          },
-          {
-            "title": "Placeholder: Upcoming Project",
-            "description": "Description will be added after the assignment is completed.",
-            "reflection": "Learning and troubleshooting notes go here."
-          }
-        ]
-      },
-      {
-        "title": "Unit 2: Web Design + Problem Solving",
-        "subtitle": "Projects that develop layout, style, and user-focused design.",
-        "projects": [
-          {
-            "title": "Assignment 3: Multi-Page Website",
-            "description": "Designed a multi-page site with navigation and consistent styling to practice organization and user flow.",
-            "reflection": "I improved my ability to plan pages and connect them."
-          },
-          {
-            "title": "Group Project: Digital Presentation",
-            "description": "Collaborated on a presentation about digital trends and shared feedback with teammates.",
-            "reflection": "I practiced teamwork and clear communication."
-          },
-          {
-            "title": "Placeholder: Future Build",
-            "description": "Details will be added when this project is complete.",
-            "reflection": "Note the most challenging parts and how I solved them."
-          }
-        ]
-      },
-      {
-        "title": "Unit 3: Systems + Innovation",
-        "subtitle": "Exploring how systems connect and improve over time.",
-        "projects": [
-          {
-            "title": "Placeholder: Systems Investigation",
-            "description": "A research or build project about how a system works and how it can be improved.",
-            "reflection": "Focus on logic, creativity, and troubleshooting."
-          },
-          {
-            "title": "Placeholder: Capstone Project",
-            "description": "A final project that combines web skills, research, and creative problem-solving.",
-            "reflection": "Summarize the biggest learning moments."
-          }
-        ]
-      }
-    ]
+    "intro": "",
+    "yearPlan": "",
+    "emptyTitle": "Portfolio Under Construction",
+    "emptyMessage": "Projects and reflections will be added here as I complete assignments.",
+    "units": []
   },
   "reflection": {
     "title": "Learning Log",
-    "intro": "Reflection helps me track growth, notice patterns, and improve how I solve problems. I add a new entry after major assignments or units.",
-    "skills": "Teamwork, communication, technical thinking, and problem-solving are core skills in BEM1O. I look for evidence of progress in each reflection.",
-    "subtitle": "Use this layout after major milestones. Copy and update the template for each new assignment.",
-    "entries": [
-      {
-        "title": "Entry 1: Multi-Page Website",
-        "learned": "I learned how to keep navigation consistent and how CSS can create a clean visual system.",
-        "wentWell": "Planning the layout first made the build process smoother.",
-        "challenging": "Debugging spacing issues took time, but I solved it by testing one section at a time."
-      },
-      {
-        "title": "Entry 2: Research Summary",
-        "learned": "I practiced turning complex information into clear points.",
-        "wentWell": "Organizing sources and staying focused helped me finish early.",
-        "challenging": "I had to revise my draft to keep it short and readable."
-      },
-      {
-        "title": "Entry 3: Placeholder for Future Reflection",
-        "learned": "[Add notes about new skills or ideas.]",
-        "wentWell": "[Add what worked or improved.]",
-        "challenging": "[Add the biggest obstacle and how you solved it.]"
-      }
-    ]
+    "intro": "",
+    "skills": "",
+    "subtitle": "",
+    "emptyTitle": "Reflection Under Construction",
+    "emptyMessage": "Reflection entries will be added after major assignments.",
+    "entries": []
   }
 }

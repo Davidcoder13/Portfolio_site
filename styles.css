@@ -291,6 +291,10 @@ a {
   line-height: 1.6;
 }
 
+.is-empty {
+  display: none;
+}
+
 .grid {
   display: grid;
   gap: 20px;
@@ -377,6 +381,26 @@ a {
 .timeline-item:hover {
   transform: translateY(-3px);
   box-shadow: 0 14px 32px rgba(31, 39, 27, 0.12);
+}
+
+.construction-card {
+  position: relative;
+  background: linear-gradient(135deg, rgba(240, 128, 60, 0.1), rgba(36, 110, 185, 0.06));
+}
+
+.construction-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(31, 39, 27, 0.08);
+  color: var(--accent-2);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 12px;
 }
 
 .timeline-item h4 {

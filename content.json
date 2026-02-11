@@ -1,10 +1,10 @@
 {
   "global": {
-    "name": "David",
+    "name": "David Lunshof",
     "grade": "Grade 9",
     "school": "Southwood Secondary",
     "email": "Lunsd3538@wrdsb.ca",
-    "phone": "",
+    "phone": "519-494-8832",
     "course": "BEM1O"
   },
   "home": {
@@ -76,7 +76,8 @@
       "Personal: Keep improving my problem-solving skills and stay consistent with learning"
     ],
     "contact": [
-      "Email: Lunsd3538@wrdsb.ca"
+      "Email: Lunsd3538@wrdsb.ca",
+      "Phone: 519-494-8832"
     ],
     "focusNote": "Grade: Grade 9 | School: Southwood Secondary"
   },

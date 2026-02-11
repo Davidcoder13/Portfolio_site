@@ -1,63 +1,31 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Student Portfolio | Portfolio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="container nav">
-        <div class="brand">
-          <span class="brand-badge">CS</span>
-          <span data-text="global.name">Student Name</span>
-        </div>
-        <nav class="nav-links">
-          <a href="index.html">Home</a>
-          <a href="about.html">About Me</a>
-          <a class="active" href="portfolio.html">Portfolio</a>
-          <a href="reflection.html">Reflection</a>
-        </nav>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>David Lunshof | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="brand">David Lunshof</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="active" href="portfolio.html">Portfolio</a>
+        <a href="reflection.html">Reflection</a>
+      </nav>
+    </div>
+  </header>
 
-    <main class="container">
-      <section class="hero">
-        <div>
-          <div class="badge">Portfolio</div>
-          <h1 class="hero-title" data-text="portfolio.title">My Work in BEM1O</h1>
-          <p class="hero-subtitle" data-text="portfolio.intro">
-            This section holds assignments, unit projects, and digital builds. Each
-            project includes a short summary and a reflection on problem-solving and
-            learning.
-          </p>
-        </div>
-        <div class="hero-card">
-          <h2>Year Plan</h2>
-          <p data-text="portfolio.yearPlan">
-            I will add new assignments as they are completed, including group work or
-            presentations. This page shows how my skills grow across the course.
-          </p>
-          <div class="code-block">
-            // portfolio update checklist
-            add project -> describe -> reflect -> improve
-          </div>
-        </div>
-      </section>
+  <main class="container">
+    <h1>Portfolio</h1>
+    <p class="lead" id="portfolio-intro"></p>
+    <section class="grid" id="projects"></section>
+  </main>
 
-      <div id="portfolio-sections"></div>
-    </main>
-
-    <footer class="footer">
-      <div class="container">
-        <span data-text="global.name">Student Name</span> |
-        <span data-text="global.course">BEM1O</span> Student Portfolio
-      </div>
-    </footer>
-    <script src="content-loader.js"></script>
-  </body>
+  <footer class="footer"><div class="container">David Lunshof • BEM1O Portfolio</div></footer>
+  <script src="content-loader.js"></script>
+</body>
 </html>

@@ -1,98 +1,56 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Student Portfolio | About Me</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="container nav">
-        <div class="brand">
-          <span class="brand-badge">CS</span>
-          <span data-text="global.name">Student Name</span>
-        </div>
-        <nav class="nav-links">
-          <a href="index.html">Home</a>
-          <a class="active" href="about.html">About Me</a>
-          <a href="portfolio.html">Portfolio</a>
-          <a href="reflection.html">Reflection</a>
-        </nav>
-      </div>
-    </header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>David Lunshof | About</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <div class="brand">David Lunshof</div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a class="active" href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="reflection.html">Reflection</a>
+      </nav>
+    </div>
+  </header>
 
-    <main class="container">
-      <section class="hero">
-        <div>
-          <div class="badge">About Me</div>
-          <h1 class="hero-title" data-text="about.title">Curious About How Tech Works</h1>
-          <p class="hero-subtitle" data-text="about.intro">
-            I am interested in technology and computer science because I like seeing
-            how digital systems are designed and improved. Building websites and
-            digital projects helps me combine creativity with logic, and I enjoy
-            exploring how small changes can make systems more efficient and user
-            friendly.
-          </p>
-        </div>
-        <div class="hero-card">
-          <h2>Focus Areas</h2>
-          <p data-text="about.focus">
-            I am learning to connect ideas, test solutions, and communicate my
-            thinking clearly. This page shows my interests, goals, and milestones.
-          </p>
-          <div class="code-block">
-            // learning loop
-            learn -> build -> reflect -> improve
-          </div>
-        </div>
-      </section>
+  <main class="container">
+    <h1>About Me</h1>
+    <section class="hero">
+      <article class="card">
+        <h2>Intro</h2>
+        <p class="lead" id="about-intro"></p>
+        <h2>Current Focus</h2>
+        <p class="lead" id="about-focus"></p>
+      </article>
+      <article class="card">
+        <h2>Contact & School</h2>
+        <ul id="contact"></ul>
+      </article>
+    </section>
 
-      <section class="section split">
-        <div class="card">
-          <h2 class="section-title">Interests</h2>
-          <ul class="list" data-list="about.interests"></ul>
-        </div>
-        <div class="card">
-          <h2 class="section-title">Favourites</h2>
-          <ul class="list" data-list="about.favourites"></ul>
-        </div>
-      </section>
+    <section class="grid">
+      <article class="card">
+        <h3>Interests</h3>
+        <ul id="interests"></ul>
+      </article>
+      <article class="card">
+        <h3>Favourites</h3>
+        <ul id="favourites"></ul>
+      </article>
+      <article class="card">
+        <h3>Goal</h3>
+        <p class="lead">Build professional projects and keep improving consistently.</p>
+      </article>
+    </section>
+  </main>
 
-      <section class="section split">
-        <div class="card">
-          <h2 class="section-title">Accomplishments</h2>
-          <ul class="list" data-list="about.accomplishments"></ul>
-        </div>
-        <div class="card">
-          <h2 class="section-title">Goals</h2>
-          <ul class="list" data-list="about.goals"></ul>
-        </div>
-      </section>
-
-      <section class="section split">
-        <div class="card">
-          <h2 class="section-title">Contact</h2>
-          <ul class="list" data-list="about.contact"></ul>
-        </div>
-        <div class="card">
-          <h2 class="section-title">Current Focus</h2>
-          <p class="section-subtitle" data-text="about.focusNote">
-            [Short note about what you are practicing right now.]
-          </p>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer">
-      <div class="container">
-        <span data-text="global.name">Student Name</span> |
-        <span data-text="global.course">BEM1O</span> Student Portfolio
-      </div>
-    </footer>
-    <script src="content-loader.js"></script>
-  </body>
+  <footer class="footer"><div class="container">David Lunshof • BEM1O Portfolio</div></footer>
+  <script src="content-loader.js"></script>
+</body>
 </html>

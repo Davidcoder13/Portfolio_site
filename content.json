@@ -1,16 +1,27 @@
 {
   "global": {
-    "name": "David Lunshof",
+    "name": "David",
     "grade": "Grade 9",
-    "school": "Southwood Secondary",
+    "school": "southwood secondary",
     "email": "Lunsd3538@wrdsb.ca",
-    "phone": "519-494-8832",
+    "phone": "",
     "course": "BEM1O"
   },
   "home": {
     "badge": "BEM1O | Intro to Business and Technology",
     "taglineLead": "Hi there, I'm David",
-    "taglineAccents": [],
+    "taglineAccents": [
+      "learning",
+      "growth",
+      "progress",
+      "discipline",
+      "focus",
+      "curiosity",
+      "mastery",
+      "effort",
+      "strategy",
+      "achievement"
+    ],
     "heroTitleLead": "Focused on",
     "heroTitleAccents": [
       "Learning",
@@ -29,6 +40,8 @@
     "primaryButton": "See My Work",
     "secondaryButton": "About Me",
     "meta": [
+      "Grade 9",
+      "southwood secondary",
       "BEM1O"
     ],
     "highlightsTitle": "Tech-Inspired Highlights",
@@ -61,14 +74,14 @@
       "Problem-solving"
     ],
     "favourites": [
-      "Book: Call of the Wild",
-      "Show: Lost in Space",
+      "Book: Call of the wild",
+      "Show: Lost in space",
       "Game: Minecraft",
       "Movie: Avatar"
     ],
     "accomplishments": [
-      "Certificate: Apple Certificate of Programming",
-      "Certificate: Red Cross Babysitting Certificate"
+      "Certificate: Apple Certificate of programing",
+      "Certificate: Red cross babysitting Certificate"
     ],
     "goals": [
       "Course: Develop a strong, professional digital portfolio in BEM1O",
@@ -76,10 +89,9 @@
       "Personal: Keep improving my problem-solving skills and stay consistent with learning"
     ],
     "contact": [
-      "Email: Lunsd3538@wrdsb.ca",
-      "Phone: 519-494-8832"
+      "Email: Lunsd3538@wrdsb.ca"
     ],
-    "focusNote": "Grade: Grade 9 | School: Southwood Secondary"
+    "focusNote": "Grade: Grade 9 | School: southwood secondary"
   },
   "portfolio": {
     "title": "Portfolio",

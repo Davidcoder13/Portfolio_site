@@ -4,16 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>David Lunshof | Home</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
       <div class="container nav">
         <a class="brand" href="index.html" data-text="global.name">David Lunshof</a>
-        <nav class="main-nav">
+        <nav>
           <a class="active" href="index.html">Home</a>
           <a href="about.html">About</a>
           <a href="portfolio.html">Portfolio</a>
@@ -22,29 +19,26 @@
       </div>
     </header>
 
-    <main class="container page-space">
-      <section class="hero panel">
+    <main class="container">
+      <section class="hero">
         <p class="kicker" data-text="home.kicker">Hi there, I'm David</p>
-        <h1 class="hero-title">
+        <h1>
           <span data-text="home.heroLead">Focused on</span>
           <span class="accent" data-rotate="home.heroWords">Learning</span>
         </h1>
         <p class="lead" data-text="home.welcome"></p>
-
-        <div class="meta-row" data-pill-list="global.meta"></div>
-
         <div class="actions">
           <a class="btn" href="portfolio.html" data-text="home.primaryButton">See My Work</a>
           <a class="btn ghost" href="about.html" data-text="home.secondaryButton">About Me</a>
         </div>
       </section>
 
-      <section class="panel">
+      <section>
         <h2>Highlights</h2>
         <div class="grid" data-card-list="home.highlights"></div>
       </section>
 
-      <section class="panel photo-panel">
+      <section class="photo-wrap">
         <img class="profile-photo" src="David.jpg" />
       </section>
     </main>
